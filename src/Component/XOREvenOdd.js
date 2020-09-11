@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function XOR_even_odd() {
+function XOREvenOdd() {
     const [text, settext] = useState("");
     const [secText, setsecText] = useState("");
 
@@ -65,4 +65,4 @@ function XOR_even_odd() {
         </div >
     );
 }
-export default XOR_even_odd;
+export default XOREvenOdd;
