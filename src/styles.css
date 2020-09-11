@@ -1,0 +1,124 @@
+* {
+  margin: 0px;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  font-size: 1rem;
+  font-weight: 400;
+}
+.nav_container {
+  display: flex;
+  background-color: #111;
+  height: 50px;
+  color: white;
+  justify-content: space-evenly;
+}
+.nav_link {
+  text-decoration: none;
+  color: white;
+  padding-top: 20px;
+  transition: transform 0.3s;
+}
+.nav_link:hover {
+  transform: scale(1.2);
+}
+.container {
+  margin-top: 20px;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.container > p {
+  padding: 20px;
+  padding-left: 0px;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.output > p {
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 510;
+}
+
+.hours {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+.hours > div {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  padding: 5px;
+  font-size: 1.2rem;
+  font-weight: 510;
+}
+.hours > div > p {
+  justify-content: flex-end;
+  padding-left: 20px;
+}
+.formTag {
+  display: flex;
+  align-items: center;
+}
+.formTag > button {
+  padding: 15px 10px;
+}
+
+.inputTag {
+  min-width: 280px;
+  margin: 0 5px;
+  width: 100%;
+  flex: 1;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.sorted_container {
+  display: flex;
+  flex-direction: column;
+}
+.sort_element {
+  display: flex;
+  height: auto;
+  line-height: 1.5;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  flex: 1;
+  min-width: 250px;
+}
+
+.sort_element > p {
+  padding: 10px 20px;
+}
+.xor_inputTag {
+  min-width: 150px;
+  margin: 0 5px;
+  width: 100%;
+  flex: 1;
+  height: calc(1.5em + 0.75rem + 2px);
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
