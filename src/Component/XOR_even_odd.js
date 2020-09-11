@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 
-function SortString() {
+function XOR_even_odd() {
     const [text, settext] = useState("");
     const [secText, setsecText] = useState("");
 
-    const [string_Array, setstring_Array] = useState([]);
+    const [Array, setArray] = useState([]);
     // const [status, setstatus] = useState()
     const onsubmithandler = (e) => {
         e.preventDefault();
@@ -21,8 +21,8 @@ function SortString() {
         if (oddCount % 2 === 0) { var status = 'Even' }
         else status = 'Odd'
 
-        setstring_Array((prevState) => [...prevState, { first: text, sec: secText, status: status }]);
-        console.log(string_Array);
+        setArray((prevState) => [...prevState, { first: text, sec: secText, status: status }]);
+        console.log(Array);
     };
 
 
@@ -59,10 +59,10 @@ function SortString() {
             </div>
             <div className='sorted_container'>
                 {
-                    string_Array.map((data, i) => (<div className='sort_element' key={i} ><p>{i + 1}.</p><p>{data.first}</p><p>{data.sec}</p><p>{data.status}</p></div>))
+                    Array.map((data, i) => (<div className='sort_element' key={i} ><p>{i + 1}.</p><p>{data.first}</p><p>{data.sec}</p><p>{data.status}</p></div>))
                 }
             </div>
         </div >
     );
 }
-export default SortString;
+export default XOR_even_odd;
