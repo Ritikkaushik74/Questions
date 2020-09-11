@@ -25,7 +25,7 @@ function SortString() {
           onsubmithandler(e);
         }}
       >
-        <label>Converter</label>
+        <label>Add item</label>
         <input
           className="inputTag"
           type="text"
@@ -34,7 +34,7 @@ function SortString() {
           placeholder="Enter String Elements"
         />
 
-        <button type="submit">Convert</button>
+        <button type="submit">Add</button>
       </form>
       <div className="output">
         <p>Sorted String Array</p>

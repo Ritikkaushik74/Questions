@@ -52,7 +52,7 @@ function XOREvenOdd() {
                     onChange={(e) => setsecText(e.target.value)}
                     placeholder="Second Elements"
                 />
-                <button type="submit">Convert</button>
+                <button type="submit">Check</button>
             </form>
             <div className="output">
                 <p>Entered numbers are</p>
