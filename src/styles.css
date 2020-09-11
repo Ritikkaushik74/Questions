@@ -68,6 +68,7 @@
 .formTag {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 .formTag > button {
   padding: 15px 10px;
